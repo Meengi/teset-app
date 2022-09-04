@@ -1,0 +1,95 @@
+.dialog {
+    color: black;
+    height: 63px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 0 0 0 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dialog:hover {
+    background: cornflowerblue;
+    border-radius: 7px;
+    color: white;
+}
+
+.dialog .dialog_photo {
+    padding: 9px 7px 7px 0;
+    float: left;
+}
+
+.dialog_photo_item {
+    width: 46px;
+    height: 46px;
+    position: relative;
+    border-color: inherit;
+    background-color: inherit;
+}
+
+.dialog_photo_item .dpi_w {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img_dialog_photo {
+    margin-left: -2px;
+    background-color: inherit;
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+
+.img_grid {
+    float: left;
+    display: block;
+}
+
+.img_grid img {
+    border-radius: 50%;
+    background-color: inherit;
+    margin-left: 2px;
+    margin-bottom: 1px;
+    border: 0;
+    color: transparent;
+}
+
+.dialog_content {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding-right: 15px;
+    margin-left: 57px;
+}
+
+.dialog_content .dialog_cw {
+    padding: 8px 0;
+    position: relative;
+}
+
+.dialog_title {
+
+}
+
+.dialog_title .dialog_name {
+    margin-bottom: 7px;
+    margin-top: 3px;
+    font-size: 12.5px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    width: 100%;
+    height: 18px;
+    position: relative;
+}
+
+.dialog_title .dialog_pmass {
+    padding-bottom: 1px;
+    white-space: nowrap;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12.5px;
+    color: var(--text_subhead);
+    line-height: 16px;
+}

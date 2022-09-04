@@ -1,0 +1,40 @@
+.nav {
+    grid-area: n;
+    background-color: #f9fafb;
+}
+.item {
+    display: flex;
+    white-space: nowrap;
+    color: black;
+    border-radius: 4px;
+    padding: 0 6px;
+    text-decoration: none;
+}
+.item:hover {
+    background-color: cornflowerblue;
+}
+.active {
+    display: flex;
+    white-space: nowrap;
+    color: blue;
+    border-radius: 4px;
+    padding: 0 6px;
+    text-decoration: none;
+}
+.side_bar {
+    width: 164px;
+    padding: 15px 0 10px;
+}
+.side_bar_in {
+    margin-left: 0;
+}
+.side_bar_icon {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: var(--accent);
+    margin-right: 10px;
+}
